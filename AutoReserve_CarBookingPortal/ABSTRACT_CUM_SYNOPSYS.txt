@@ -1,0 +1,42 @@
+
+	+====================+
+	| Car Booking Portal |
+	+====================+
+
+• Domain Description
+	The Car Booking Portal is an online platform designed to facilitate the process of booking cars for users. The portal provides users with the 	ability to register, log in, and browse available cars. Users can apply filters and sorting options to refine their search for car details. They 	can also book a car and view the status of their bookings. Additionally, an admin user has additional functionalities to manage car details, 	confirm or reject car bookings, and generate reports on bookings.
+
+• Types of Users
+	1. User
+	2. Admin
+
+• Role of User
+	1. Register for a user account by providing necessary information.
+	2. Log in to the car booking portal using registered credentials.
+	3. View available cars with details such as car model, brand, price, and availability.
+	4. Apply filters and sorting options to refine the search for car details.
+	5. Book a car by selecting the desired car and providing booking details.
+	6. View the status of their car bookings, including confirmation or rejection status.
+	7. Log out from the car booking portal.
+
+• Role of Admin
+
+	1. Register for an admin account by providing necessary information.
+	2. Log in to the admin account using registered credentials.
+	3. Add new car details to the portal, including car model, brand, price, and availability.
+	4. Update existing car details, such as availability and price.
+	5. Delete car details from the portal.
+	6. Confirm or reject car bookings made by users.
+	7. Generate reports on car bookings, including the number of bookings and revenue generated.
+	8. Log out from the admin account.
+
+• Note
+	1. Design the database schema using MySQL to capture information related to users, cars, bookings, and reports. Maintain appropriate relationships 	   and constraints between tables, such as foreign keys and unique constraints.
+	2. Use Hibernate as the ORM framework to map Java objects to database tables, providing seamless integration between the application and the 	 		 	   database.
+	3. Create an ER-Diagram to visualize the database structure and relationships.
+	4. Develop the project in a modular manner, following best practices to ensure reusability and scalability.
+	5. Implement a console-based user interface to facilitate user interactions and provide a command-line interface for performing car searches, 	 	  	   bookings, and management operations.
+
+• Additional Features (Optional)
+	Consider additional features such as car availability checking, integration with online payment gateways for secure payment processing, real-time 	car status updates, and error handling to enhance the functionality and usability of the car booking portal.
+
